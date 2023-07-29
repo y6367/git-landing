@@ -69,6 +69,7 @@ h1 {
 h3 {
     font-size: 24px;
     color: #f9faf8;
+    margin: 0px;
 }
 
 .second {
@@ -128,4 +129,53 @@ i {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+}
+
+.fourth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.fourth-top {
+    display: flex;
+    width: 610px;
+    height: 100px;
+    padding: 20px 100px;
+    margin: 50px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fourth-right {
+    margin-top: 10px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    border-style: solid;
+    border-color: white;
+}
+
+.fourth-left>div {
+    gap: 20px;
+    color: #e5e7eb;
+}
+
+.fourth-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 100%;
+    background-color: #1F2937;
+}
+
+.fourth-bottom>div {
+    text-align: center;
+    color: #f9faf8;
 }
