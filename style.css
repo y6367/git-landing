@@ -10,6 +10,7 @@ body {
 
 .first {
     background-color: #1F2937;
+    padding-bottom: 20px;
 }
 
 .header {
@@ -68,4 +69,48 @@ h1 {
 h3 {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.second-empty {
+    width: 200px;
+    height: 200px;
+    border: solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+    /* margin-left: 20px; */
+    margin: 20px;
+    margin-bottom: 10px;
+}
+.second-boxes {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 10px;
+}
+
+.second-section {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+
+.second-text {
+    text-align: center;
+    font-size: 18px;
+    color: #1f2937;
 }
