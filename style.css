@@ -4,7 +4,7 @@ body {
 }
 
 .first, .second, .third, .fourth {
-    padding: 0% 20%;
+    padding: 0% 22%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -86,13 +86,13 @@ h2 {
 }
 
 .second-empty {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border: solid;
     border-color: #3882f6;
     border-radius: 10px;
     /* margin-left: 20px; */
-    margin: 20px;
+    margin: 30px;
     margin-bottom: 10px;
 }
 .second-boxes {
@@ -112,5 +112,20 @@ h2 {
 .second-text {
     text-align: center;
     font-size: 18px;
+    color: #1f2937;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #e5e7eb;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+i {
+    font-size: 36px;
+    font-style: italic;
     color: #1f2937;
 }
